@@ -7,8 +7,7 @@ function nowServing(line){
   if(line.length === 0){
   return `There is nobody waiting to be served!`
 }
-else if (line.length > 0){
-  line.slice(1)
-  return `Currently serving .`
+else (line.slice(1)){
+  return `Currently serving ${name}.`
 }
 }
