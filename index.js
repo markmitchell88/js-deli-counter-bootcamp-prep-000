@@ -9,6 +9,6 @@ function nowServing(line){
 }
 else if (line.length > 0){
   line.slice(1)
-  return `Currently serving ${name}.`
+  return `Currently serving .`
 }
 }
