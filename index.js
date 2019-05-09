@@ -7,3 +7,4 @@ function nowServing(line){
   if(line.leng === 0){
   return `There is nobody waiting to be served!`
 }
+}
